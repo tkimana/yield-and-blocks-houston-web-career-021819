@@ -1,5 +1,5 @@
-def hello_t(array)
+def hello_t(name)
   if name.start_with?(T)
-    puts "Hi, Time"
+    puts "Hi, #{name}"
 end
 
